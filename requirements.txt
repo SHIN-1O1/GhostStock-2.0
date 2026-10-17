@@ -1,0 +1,8 @@
+google-genai
+pydantic
+pypdf
+reportlab
+streamlit
+pillow
+numpy
+python-dotenv

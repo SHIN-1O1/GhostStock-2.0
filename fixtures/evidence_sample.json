@@ -1,0 +1,6 @@
+[
+  {"agent": "document", "claim": "100 units of Widget A shipped", "sku": "SKU-A", "metric": "shipped_qty", "value": 100, "source": "invoice.pdf", "excerpt": "Item: Widget A     SKU: SKU-A     Qty: 100", "model_confidence": 0.95},
+  {"agent": "document", "claim": "90 units of Widget A received", "sku": "SKU-A", "metric": "received_qty", "value": 90, "source": "receipt.pdf", "excerpt": "Item: Widget A     SKU: SKU-A     Received: 90", "model_confidence": 0.95},
+  {"agent": "vision", "claim": "Carton visibly crushed", "sku": "SKU-A", "metric": "damage", "value": null, "source": "package.jpg", "excerpt": "Cardboard carton with a crushed corner and dented side panel", "model_confidence": 0.8},
+  {"agent": "audio", "claim": "Speaker reports a torn box", "sku": "SKU-A", "metric": "damage", "value": null, "source": "note.mp3", "excerpt": "\"The box was torn when it came off the truck\"", "model_confidence": 0.7}
+]
