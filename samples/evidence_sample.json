@@ -1,0 +1,60 @@
+[
+  {
+    "evidence_id": "EV-DOC-INV-001",
+    "source_file": "samples/supplier_invoice.pdf",
+    "source_type": "DOCUMENT",
+    "agent_name": "DocumentAgent",
+    "sku": "SKU-GHOST-01",
+    "claim_type": "SHIPPED_QUANTITY",
+    "extracted_value": 100,
+    "unit": "units",
+    "confidence": 0.95,
+    "metadata": {
+      "invoice_number": "INV-2026-8812",
+      "vendor": "Apex Logistics"
+    }
+  },
+  {
+    "evidence_id": "EV-DOC-REC-002",
+    "source_file": "samples/warehouse_receipt.pdf",
+    "source_type": "DOCUMENT",
+    "agent_name": "DocumentAgent",
+    "sku": "SKU-GHOST-01",
+    "claim_type": "RECEIVED_QUANTITY",
+    "extracted_value": 90,
+    "unit": "units",
+    "confidence": 0.92,
+    "metadata": {
+      "receipt_number": "REC-9941",
+      "receiver": "Dock Door 4"
+    }
+  },
+  {
+    "evidence_id": "EV-VIS-DMG-003",
+    "source_file": "samples/pallet_damage.jpg",
+    "source_type": "VISION",
+    "agent_name": "VisionAgent",
+    "sku": "SKU-GHOST-01",
+    "claim_type": "DAMAGE_OBSERVED",
+    "extracted_value": "Outer cardboard puncture on pallet 1",
+    "unit": "n/a",
+    "confidence": 0.85,
+    "metadata": {
+      "box_count_unverified": true
+    }
+  },
+  {
+    "evidence_id": "EV-AUD-REP-004",
+    "source_file": "samples/dock_voice_note.wav",
+    "source_type": "AUDIO",
+    "agent_name": "AudioAgent",
+    "sku": "SKU-GHOST-01",
+    "claim_type": "ANOMALY_NOTE",
+    "extracted_value": "Supervisor mentions 1 box appeared crushed on arrival",
+    "unit": "n/a",
+    "confidence": 0.78,
+    "metadata": {
+      "speaker": "Warehouse Shift Lead"
+    }
+  }
+]

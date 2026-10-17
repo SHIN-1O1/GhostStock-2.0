@@ -1,0 +1,14 @@
+# Local GhostStock agent memory and session state
+.ghoststock_brain/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# SQLite databases
+*.db
+*.sqlite3
+
+# Test caches
+.pytest_cache/
